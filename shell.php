@@ -1,2 +1,2 @@
 <?php
-echo shell_exec('ls -la /flag/72f245b4f4291f6bfa749483ff55eeb3 2>&1');
+echo shell_exec('ls -la /flag/0528026a9109f91adde76ff8375df9dc 2>&1');
